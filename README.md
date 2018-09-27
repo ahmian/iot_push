@@ -1,5 +1,6 @@
 # iot_push
 基于netty+mqtt 3.1.1协议开发的物联网消息推送框架。
+基于https://github.com/1ssqq1lxr/iot_push  项目进行的功能改动及部分功能的优化;
 
  ## 项目目录
  * [mqtt简介](#1)

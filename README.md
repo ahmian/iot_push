@@ -31,21 +31,20 @@
   * springboot
   * jdk8
   * 导入IDE
-  * 配置yml 或者properties 文件 [yml](https://github.com/1ssqq1lxr/iot_push/blob/master/iot_push_server_starter_test/src/main/resources/application.yml)  
+  * 配置yml 或者properties 文件 [yml](https://github.com/ahmian/iot_push/blob/master/iot_push_server_starter_test/src/main/resources/application.yml)  
   * 简单测试：运行包 test 下的 测试 文件，即可开启测试客户端。
   * 压力测试：推荐使用jmeter 的mqtt插件 [插件](https://github.com/tuanhiep/mqtt-jmeter)
  
   **## 客户端  example(iot_push_client_starter_test)**
   
-  * 基于springboot 配置方式[yml](https://github.com/1ssqq1lxr/iot_push/blob/master/iot_push_client_starter_test/src/main/resources/application.yml)
+  * 基于springboot 配置方式[yml](https://github.com/ahmian/iot_push/blob/master/iot_push_client_starter_test/src/main/resources/application.yml)
   
   * 配置实现 MqttListener 类并添加MqttMessageListener指定订阅的topic跟服务质量
      
   * @Autowired Procuder producer 即可使用;
     
-  * 编码 [java](https://github.com/1ssqq1lxr/iot_push/blob/master/iot_push_client_starter_test/src/main/java/com/lxr/iot/example/MqttMain.java)
+  * 编码 [java](https://github.com/ahmian/iot_push/blob/master/iot_push_client_starter_test/src/main/java/com/lxr/iot/example/MqttMain.java)
     
- ### 交流群号 658212670
 
  
 
